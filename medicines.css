@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+.dashboard-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.message {
+    background-color: #ffcc00;
+    padding: 10px;
+    margin: 15px 0;
+    color: black;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.medicine-form {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.medicine-form h2 {
+    margin-bottom: 20px;
+}
+
+.medicine-form .form-group {
+    margin-bottom: 15px;
+}
+
+.medicine-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.medicine-form input,
+.medicine-form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.medicine-form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.medicine-form button:hover {
+    background-color: #45a049;
+}
+
+.medicines-list table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.medicines-list th,
+.medicines-list td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.medicines-list th {
+    background-color: #f2f2f2;
+}
+
+.actions button {
+    padding: 8px 12px;
+    margin: 0 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.edit-btn {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.delete-btn {
+    background-color: #f44336;
+    color: white;
+}
+
+.delete-btn:hover,
+.edit-btn:hover {
+    opacity: 0.8;
+}
